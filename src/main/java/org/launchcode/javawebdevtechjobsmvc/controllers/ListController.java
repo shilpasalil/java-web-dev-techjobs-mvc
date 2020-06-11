@@ -32,6 +32,8 @@ public class ListController {
         tableChoices.put("location", JobData.getAllLocations());
         tableChoices.put("positionType", JobData.getAllPositionTypes());
         tableChoices.put("coreCompetency", JobData.getAllCoreCompetency());
+        tableChoices.put("all", "View All");
+        //TODO #2: Complete the View Jobs By Category Table. DONE!
     }
 
     @RequestMapping(value = "")
